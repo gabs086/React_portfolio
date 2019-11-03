@@ -8,57 +8,80 @@ import ras from './img/reach-a-spot.png';
 export default class Projects extends Component {
     render() {
         return (
-            <div>
+            <div className="row">
 
-                <div className="row">
 
-                    <div class="container">
-                        <div class="col s12">
-                            <div class="typewriter-projects">
-                                <h3 class="center" id="headers">Projects</h3><br />
-                            </div>
-                            <div class="carousel carousel-slider" data-indicators="true">
 
-                                {/* <div class="carousel-fixed-item center middle-indicator">
-                                    <div class="left">
-                                        <a href="Previo"
-                                            class="movePrevCarousel middle-indicator-text waves-effect waves-light content-indicator"><i
-                                                class="material-icons left  middle-indicator-text">chevron_left</i></a>
-                                    </div>
-
-                                    <div class="right">
-                                        <a href="Siguiente"
-                                            class=" moveNextCarousel middle-indicator-text waves-effect waves-light content-indicator"><i
-                                                class="material-icons right middle-indicator-text">chevron_right</i></a>
-                                    </div>
-                                </div> */}
-
-                                <a href="https://osas-soa.000webhostapp.com/"
-                                    target="_blank"
-                                    class="carousel-item hoverable">
-                                    <img src={soa} alt="" height="500" />
-                                </a>
-                                <a href="https://divisoriaking.com/"
-                                    target="_blank"
-                                    class="carousel-item hoverable">
-                                    <img src={dk} alt="" height="500" />
-                                </a>
-                                <a href="http://techniqo.org/"
-                                    target="_blank"
-                                    class="carousel-item hoverable">
-                                    <img src={techniqo} alt="" height="500" />
-                                </a>
-                                <a href="https://reach-a-spot.netlify.com/"
-                                    target="_blank"
-                                    class="carousel-item hoverable">
-                                    <img src={ras} alt="" height="500" />
-                                </a>
-                            </div>
-
+                <div className="col s12 m3">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src={soa} />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Student Organization & Activities Web Portal for Batangas State University<i class="material-icons right">more_vert</i></span>
+                            <p><a target="_blank" href="https://osas-soa.000webhostapp.com/">Click here to visit the page</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                            <p>Our project thesis in college. This web portal is the tool for all the Student Organizations of the University to send request to the school of all their school activities to be implemented. It is developed in HTML,CSS, JavaScript & PHP</p>
                         </div>
                     </div>
-
                 </div>
+
+
+                <div className="col s12 m3">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src={dk} />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 ">
+                                Divisoria King<i class="material-icons right">more_vert</i></span>
+                            <p><a target="_blank" href="https://divisoriaking.com/">Click here to visit the page</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                            <p>An e-commerce website for all the divisoria items you want to purchase online. As a OJT student, I contributed some functionalities, UI design of the site and debug errors and functionalities of the website using WordPress and PHP.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col s12 m3">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src={techniqo} />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 ">
+                                TechniQo, Institute of Science and Technology<i class="material-icons right">more_vert</i></span>
+                            <p><a target="_blank" href="http://techniqo.org/">Click here to visit the page</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                            <p>An Institute information website that shows who are techniqo, what they do and the courses they offer for training. I created it in our OJT training using HTML, CSS, JavaScript with the help of CSS framework, Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="col s12 m3">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src={ras} />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 ">
+                                Reach-A-Spot<i class="material-icons right">more_vert</i></span>
+                            <p><a target="_blank" href="https://reach-a-spot.netlify.com/">Click here to visit the page</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                            <p>A static web page the I created in our Creative Web Design training in TESDA. I created it using HTML, CSS, JavaScript with the help of CSS framework, Material-CSS </p>
+                        </div>
+                    </div>
+                </div>
+
+
 
             </div>
         )

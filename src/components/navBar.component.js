@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 import { Link } from 'react-router-dom'
 
 
@@ -15,12 +15,14 @@ export default class NavBar extends Component {
     }
     render() {
         return (
+
             <div>
+
                 <div className="navbar-fixed">
                     <nav className="blue darlen-2">
                         <div className="nav-wrapper container">
 
-                            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                            <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
 
                             <Link to="/" className="brand-logo"><span>Gavee</span></Link>
 

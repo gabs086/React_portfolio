@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 import elem from './img/elem.svg';
 import hs from './img/hsofficial.png';
 import college from './img/HS.png';
+
+
 
 export default class Educational extends Component {
     render() {
         return (
             <div>
+
                 <div className="row">
                     <div className="container">
                         <div className="center">
@@ -70,7 +73,9 @@ export default class Educational extends Component {
 
                     </div>
                 </div>
+
             </div>
+
         )
     }
 }

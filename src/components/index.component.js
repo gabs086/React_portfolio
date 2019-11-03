@@ -33,24 +33,24 @@ export default class IndexPage extends Component {
                             </a>
                             {/* typewriter */}
 
-                            <div class="typewriter">
-                                <h2 class="center" id="intro">Gabriel V. Agoncillo</h2>
+                            <div className="typewriter">
+                                <h2 className="center" id="intro">Gabriel V. Agoncillo</h2>
                             </div><br />
 
 
-                            <div class="center fade">
-                                <span class="flow-text">Web / Back-End / FullStack Developer</span><br></br>
+                            <div className="center fade">
+                                <span className="flow-text">Web / Back-End / FullStack Developer</span><br></br>
                                 @
                             <a href="mailto:agoncillogabriel08@gmail.com" target="_top">agoncillogabriel08@gmail.com</a>
 
                                 &nbsp;&nbsp;
-                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                            <i className="fa fa-facebook-square" aria-hidden="true"></i>
                                 &nbsp;
                             <a href="https://web.facebook.com/gabsgabs086" target="_blank">@gabsgabs086</a>
 
                                 &nbsp;&nbsp;
-    
-                            <i class="fa fa-github" aria-hidden="true"></i>
+
+                            <i className="fa fa-github" aria-hidden="true"></i>
                                 &nbsp;
                             <a href="https://github.com/gabs086" target="_blank">gabs086</a>
 
