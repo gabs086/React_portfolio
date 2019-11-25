@@ -1,16 +1,31 @@
 import React, { Component } from 'react';
 
 export default class Seminars extends Component {
+
+    componentDidMount() {
+        const imgFade = document.querySelector('.fade');
+
+        setTimeout(_ => {
+
+            imgFade.style.display = 'block';
+
+        }, 3600)
+    }
+
+
     render() {
         return (
             <div>
 
                 <div class="col s12">
                     <div class="container">
-                        <div class="typewriter-seminars">
-                            <h3 class="center" id="headers">Seminars & Trainings</h3><br />
-                        </div>
-                        <table class="striped white highlight">
+
+                        <div className="typewriter">
+                            <h3 className="center" id="intro6" style={{ marginTop: 40 }}>Seminars & Trainings</h3>
+                        </div><br />
+
+
+                        <table class="striped white highlight fade">
                             <thead>
                                 <tr>
                                     <th>Seminar/Training</th>

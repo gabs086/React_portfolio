@@ -2,16 +2,30 @@ import React, { Component } from 'react';
 import imergex from './img/imergex.png'
 
 export default class PreProExp extends Component {
+
+
+    componentDidMount() {
+        const imgFade = document.querySelector('.fade');
+
+        setTimeout(_ => {
+
+            imgFade.style.display = 'block';
+
+        }, 3600)
+    }
+
     render() {
         return (
             <div>
                 <div className="row">
                     <div class="container">
-                        <div class="typewriter-exp">
-                            <h3 class="center" id="headers">Pre-Professional Experience</h3><br />
-                        </div>
+
+                        <div className="typewriter">
+                            <h3 className="center" id="intro3" style={{ marginTop: 40 }}>Pre-Proffesional Experience</h3>
+                        </div><br />
+
                     </div>
-                    <div class="row">
+                    <div class="row fade">
                         <div class="container">
                             <div class="col s12 m8">
                                 <h4 class="center">IT-Intern / Wordpress / Web Developer</h4>

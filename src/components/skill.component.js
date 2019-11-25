@@ -16,6 +16,17 @@ import powerdiector from './img/powerdiector.png';
 import git from './img/git_logo.png';
 
 export default class Skills extends Component {
+
+    componentDidMount() {
+        const imgFade = document.querySelector('.fade');
+
+        setTimeout(_ => {
+
+            imgFade.style.display = 'block';
+
+        }, 3600)
+    }
+
     render() {
         return (
             <div>
@@ -23,67 +34,71 @@ export default class Skills extends Component {
                 <div className="row">
 
                     <div class="container">
-                        <div class="typewriter-skills">
-                            <h3 class="center" id="headers">Skills</h3><br />
-                        </div>
+                        <div className="typewriter">
+                            <h3 className="center" id="intro4" style={{ marginTop: 40 }}>Skills</h3>
+                        </div><br />
 
-                        <div class="row">
-                            <h4 class="center">Web Development</h4>
-                            <div class="col s12 m4 center">
-                                <img src={html} width="100" />
+                        <div className="fade">
+
+                            <div class="row">
+                                <h4 class="center">Web Development</h4>
+                                <div class="col s12 m4 center">
+                                    <img src={html} width="100" />
+                                </div>
+                                <div class="col s12 m4 center">
+                                    <img src={css} width="100" />
+                                </div>
+                                <div class="col s12 m4 center">
+                                    <img src={js} width="100" />
+                                </div>
                             </div>
-                            <div class="col s12 m4 center">
-                                <img src={css} width="100" />
+                            <div class="row">
+                                <div class="col s12 m6 center">
+                                    <img src={php} width="200" />
+                                </div>
+                                <div class="col s12 m6 center">
+                                    <img src={mysql} width="200" />
+                                </div>
                             </div>
-                            <div class="col s12 m4 center">
-                                <img src={js} width="100" />
+                            <div class="row">
+                                <h4 class="center">Full Stack Development</h4>
+                                <div class="col s12 m3 center">
+                                    <img src={mongodb} width="170" />
+                                </div>
+                                <div class="col s12 m3 center">
+                                    <img src={express} width="170" />
+                                </div>
+                                <div class="col s12 m3 center">
+                                    <img src={react} width="170" />
+                                </div>
+                                <div class="col s12 m3 center">
+                                    <img src={node} width="170" />
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col s12 m6 center">
-                                <img src={php} width="200" />
+                            <div class="row">
+                                <h4 class="center">Frameworks</h4>
+                                <div class="col s12 m4 center">
+                                    <img src={m}
+                                        width="150" />
+                                </div>
+                                <div class="col s12 m4 center">
+                                    <img src={bootstrap} width="150" />
+                                </div>
+                                <div class="col s12 m4 center">
+                                    <img src={wordpress} width="150" />
+                                </div>
                             </div>
-                            <div class="col s12 m6 center">
-                                <img src={mysql} width="200" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <h4 class="center">Full Stack Development</h4>
-                            <div class="col s12 m3 center">
-                                <img src={mongodb} width="170" />
-                            </div>
-                            <div class="col s12 m3 center">
-                                <img src={express} width="170" />
-                            </div>
-                            <div class="col s12 m3 center">
-                                <img src={react} width="170" />
-                            </div>
-                            <div class="col s12 m3 center">
-                                <img src={node} width="170" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <h4 class="center">Frameworks</h4>
-                            <div class="col s12 m4 center">
-                                <img src={m}
-                                    width="150" />
-                            </div>
-                            <div class="col s12 m4 center">
-                                <img src={bootstrap} width="150" />
-                            </div>
-                            <div class="col s12 m4 center">
-                                <img src={wordpress} width="150" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <h4 class="center">Others</h4>
-                            <div class="col s12 m6 center">
-                                <img src={powerdiector} width="150" alt="Power Director" />
+                            <div class="row">
+                                <h4 class="center">Others</h4>
+                                <div class="col s12 m6 center">
+                                    <img src={powerdiector} width="150" alt="Power Director" />
+                                </div>
+
+                                <div class="col s12 m6 center">
+                                    <img src={git} width="150" />
+                                </div>
                             </div>
 
-                            <div class="col s12 m6 center">
-                                <img src={git} width="150" />
-                            </div>
                         </div>
 
                     </div>
