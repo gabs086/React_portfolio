@@ -5,6 +5,7 @@ import soa from './img/soa.png';
 import dk from './img/dk.png';
 import techniqo from './img/techniqo.png';
 import ras from './img/reach-a-spot.png';
+import zeus from './img/zeus.png';
 
 export default class Projects extends Component {
 
@@ -27,6 +28,7 @@ export default class Projects extends Component {
                         <a class="carousel-item" target="_blank" href="https://divisoriaking.com/"><img src={dk} /></a>
                         <a class="carousel-item" target="_blank" href="http://techniqo.org/"><img src={techniqo} /></a>
                         <a class="carousel-item" target="_blank" href="https://reach-a-spot.netlify.com/"><img src={ras} /></a>
+                        <a class="carousel-item" target="_blank" href="http://globaltigersolutions.com/products/enterprise/zeus.php"><img src={zeus} /></a>
                     </div>
                 </div>
 

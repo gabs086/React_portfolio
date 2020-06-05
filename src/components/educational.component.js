@@ -42,7 +42,7 @@ export default class Educational extends Component {
                                             Butong Elementary School
                             <br />Butong Taal,Batangas
                             <br /><br />2005-2010<br />
-                                            <a href="https://www.facebook.com/pages/butong-elementary-school/337530653033604"
+                                            <a href="http://www.pinoycode.com/public-school/107725-butong-elementary-school/"
                                                 target="_blank" className="btn blue" id="btn1">More Info...</a>
                                         </p>
                                     </div>

@@ -7,6 +7,10 @@
   display: none;
 }
 
+.fade2 {
+  display: none;
+}
+
 #font-pre {
   font-size: 10px;
 }
