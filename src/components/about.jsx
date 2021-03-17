@@ -190,8 +190,9 @@ class About extends React.Component {
                     </div>
                     <a
                   className="btn btn-primary btn js-scroll px-4"
-                  href="#work"
+                  href={process.env.PUBLIC_URL + '/files/Gabriel Agoncillo.pdf'}
                   role="button"
+                  download
                 >
                   <i className="fa fa-download"></i> 
                    &nbsp;
