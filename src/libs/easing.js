@@ -124,8 +124,8 @@ $.extend($.easing, {
     if (!p) p = d * 0.3;
     if (a < Math.abs(c)) {
       a = c;
-      var s = p / 4;
-    } else var s = (p / (2 * Math.PI)) * Math.asin(c / a);
+      s = p / 4;
+    } else s = (p / (2 * Math.PI)) * Math.asin(c / a);
     return -(a * Math.pow(2, 10 * (t -= 1)) * Math.sin(((t * d - s) * (2 * Math.PI)) / p)) + b;
   },
   easeOutElastic: function (x, t, b, c, d) {
@@ -137,8 +137,8 @@ $.extend($.easing, {
     if (!p) p = d * 0.3;
     if (a < Math.abs(c)) {
       a = c;
-      var s = p / 4;
-    } else var s = (p / (2 * Math.PI)) * Math.asin(c / a);
+      s = p / 4;
+    } else s = (p / (2 * Math.PI)) * Math.asin(c / a);
     return a * Math.pow(2, -10 * t) * Math.sin(((t * d - s) * (2 * Math.PI)) / p) + c + b;
   },
   easeInOutElastic: function (x, t, b, c, d) {
@@ -150,8 +150,8 @@ $.extend($.easing, {
     if (!p) p = d * (0.3 * 1.5);
     if (a < Math.abs(c)) {
       a = c;
-      var s = p / 4;
-    } else var s = (p / (2 * Math.PI)) * Math.asin(c / a);
+      s = p / 4;
+    } else s = (p / (2 * Math.PI)) * Math.asin(c / a);
     if (t < 1) return -0.5 * (a * Math.pow(2, 10 * (t -= 1)) * Math.sin(((t * d - s) * (2 * Math.PI)) / p)) + b;
     return a * Math.pow(2, -10 * (t -= 1)) * Math.sin(((t * d - s) * (2 * Math.PI)) / p) * 0.5 + c + b;
   },
