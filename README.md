@@ -1,4 +1,3 @@
-# React_portfolio
+# React-portfolio
 
-
-Portfolio site -> https://gabrielagoncillo.netlify.app/
+Portfolio link -> 

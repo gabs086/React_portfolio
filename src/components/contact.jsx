@@ -121,6 +121,7 @@ class Contact extends React.Component {
                             <a
                               href="https://github.com/gabs086"
                               target="_blank"
+                              rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
                                 <i className="ion-social-github"></i>
@@ -129,8 +130,9 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href="https://linkedin.com/in/gabriel-agoncillo-05bb89187"
+                              href="linkedin.com/in/gabriel-agoncillo-05bb89187"
                               target="_blank"
+                              rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
                                 <i className="ion-social-linkedin"></i>
