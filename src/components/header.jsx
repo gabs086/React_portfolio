@@ -4,7 +4,6 @@ import { Helmet } from 'react-helmet';
 function Header() {
   return (
     <Helmet>
-      <title>Gabriel V. Agoncillo | Software Developer</title>
       <meta name='keywords' content='Gab Agoncillo, Gabriel Agoncillo, gab, gabriel, agoncillo' />
       <meta name='author' content='Gab Agoncillo' />
       <meta name='description' content='Software Developer/Engineer open for new career opportunities ' />
