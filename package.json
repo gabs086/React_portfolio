@@ -7,7 +7,6 @@
     "gh-pages": "^2.2.0",
     "jquery": "^3.6.0",
     "lightbox2": "^2.11.3",
-    "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
     "popper.js": "^1.16.1",
     "react": "^16.14.0",
@@ -39,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.49.9"
   }
 }
