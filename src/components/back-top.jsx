@@ -2,8 +2,8 @@ import React from 'react';
 import $ from 'jquery';
 import '../libs/easing.js';
 
-class BackToTop extends React.Component {
-  componentDidMount() {
+function BackToTop() {
+  React.useEffect(() => {
     $('.back-to-top').click(function () {
       $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
       return false;
@@ -18,15 +18,13 @@ class BackToTop extends React.Component {
         document.querySelector('.back-to-top').classList.add('fadeOut');
       }
     });
-  }
+  }, []);
 
-  render() {
-    return (
-      <span className='back-to-top animated'>
-        <i className='fa fa-chevron-up'></i>
-      </span>
-    );
-  }
+  return (
+    <span className='back-to-top animated'>
+      <i className='fa fa-chevron-up'></i>
+    </span>
+  );
 }
 
 export default BackToTop;

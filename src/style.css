@@ -179,12 +179,12 @@ a:hover {
 /* Skills */
 
 .skills {
-  display: none;
+  display: block;
 }
 
 @media  only screen and (max-width: 760px){
   .skills {
-    display: block;
+    display: none;
   }
 }
 
