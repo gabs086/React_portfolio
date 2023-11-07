@@ -79,7 +79,7 @@ function Contact() {
                           </a>
                         </li>
                         <li>
-                          <a href='linkedin.com/in/gabriel-agoncillo-05bb89187' target='_blank' rel='noopener noreferrer'>
+                          <a href='https://www.linkedin.com/in/gabriel-agoncillo-05bb89187/' target='_blank' rel='noopener noreferrer'>
                             <span className='ico-circle'>
                               <i className='ion-social-linkedin'></i>
                             </span>
