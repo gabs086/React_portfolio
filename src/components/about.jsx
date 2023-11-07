@@ -13,14 +13,11 @@ import mongodb from '../img/skills/mongodb.png';
 import codeigniter from '../img/skills/codeigniter.png';
 import materialize from '../img/skills/materialize.png';
 import bootstrap from '../img/skills/bootstrap.png';
-import wordpress from '../img/skills/wordpress.png';
 import materialUi from '../img/skills/material-ui.png';
 import reactstrap from '../img/skills/reactstrap.png';
 import git from '../img/skills/git.png';
 import reactNative from '../img/skills/react-native.png';
-import sendgrid from '../img/skills/sendgrid.png';
-import android from '../img/skills/android.png';
-import mailchimp from '../img/skills/mailchimp.png';
+import azureFunctions from '../img/skills/azureFunction.png';
 
 const about_me = [
   {
@@ -31,11 +28,12 @@ const about_me = [
   {
     id: 'second-p-about',
     content:
-      "Most stack of technology that I used is the MERN stack and the LAMP stack for web development. But I'm interested in learning new things such us learning about how mobile development works. Interested in using React-native and native android development using java.",
+      'Most stack of technology that I used is the MERN stack. I also have knowledge in Microsoft Azure Solutions such as Azure Functions for serverless solutions in creating REST APIs, cron timer triggers and service bus.',
   },
   {
     id: 'third-p-about',
-    content: 'I also have a little bit skills in marketing such using tools of Mailchimp & SendGrid. To learn more about me, Please download my CV or send me a message through the contact form below',
+    content:
+      "But I'm interested in learning new things. I learn and adapt fast and it's one of my strenths. Whether it will be mobile development, devops or full stack development. I can able to lead a team also, sharing my skills and experience for the better of the team and the project that I will work with.",
   },
 ];
 
@@ -100,10 +98,8 @@ function About() {
                     </div>
                     {/* row */}
 
-                    <div className='row pt-4'>
-                      <div className='col-sm-4'>
-                        <img src={reactNative} alt='React-Native' width='80' />
-                      </div>
+                    {/* <div className='row pt-4'>
+                    
 
                       <div className='col-sm-4'>
                         <img src={android} alt='Android studio(java)' width='80' />
@@ -112,7 +108,7 @@ function About() {
                       <div className='col-sm-4'>
                         <img src={wordpress} alt='Wordpress' width='80' />
                       </div>
-                    </div>
+                    </div> */}
                     {/* row */}
 
                     <div className='row pt-4'>
@@ -146,13 +142,21 @@ function About() {
                     {/* row */}
 
                     <div className='row pt-4'>
-                      <div className='col-sm-4 pt-4'>
+                      <div className='col-sm-4'>
+                        <img src={reactNative} alt='React-Native' width='80' />
+                      </div>
+                      <div className='col-sm-4'>
+                        <img src={azureFunctions} alt='Azure Functions' width='150' height='80' />
+                      </div>
+                      {/* <div className='col-sm-4 pt-4'>
                         <img src={sendgrid} alt='SendGrid' width='140' />
                       </div>
 
+                      
+
                       <div className='col-sm-4'>
                         <img src={mailchimp} alt='Mailchimp' width='100' />
-                      </div>
+                      </div> */}
                     </div>
                     {/* row */}
                   </div>
